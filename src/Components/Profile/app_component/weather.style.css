@@ -1,0 +1,25 @@
+.container {
+  margin-top: 1.2rem;
+}
+
+.container input,
+.container ::-webkit-input-placeholder {
+  color: #3d5a80 !important;
+}
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 5px solid #138496;
+}
+
+.py-3,
+.py-2,
+.display-1 {
+  color: #3d5a80;
+}
+
+.text-white {
+  color: #3d5a80 !important;
+  font-size: 2rem;
+}

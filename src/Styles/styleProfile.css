@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+.container-profile-big {
+  display: flex;
+  width: 100%;
+  /* height: auto; */
+
+  justify-content: flex-start;
+
+  flex-direction: column;
+}
+.container-profile-ch {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  box-shadow: 1px 4px 20px 2px rgb(212, 212, 212);
+  background-color: #f8f6f6;
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+.count-imag-pro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.basic-information-pro {
+  margin-bottom: 2rem;
+}
+.profile-image-count {
+  width: 30%;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
+  z-index: -1;
+  box-shadow: 1px 4px 20px 2px rgb(212, 212, 212);
+  background-color: white;
+  border: 1rem solid rgb(255, 255, 255);
+  position: relative;
+}
+.information {
+  box-shadow: 1px 4px 20px 2px rgb(212, 212, 212);
+  background-color: white;
+  width: 70%;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.container-width {
+  width: 100%;
+  /* border: 1px solid black; */
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+}
+.button-edit-pro {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  /* box-shadow: 1px 4px 20px 2px rgb(212, 212, 212);
+  background-color: white;
+  border: 1rem solid rgb(255, 255, 255); */
+  position: relative;
+  z-index: 5;
+  padding: 0.5rem;
+}
+
+.edit-image-pro {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  background: none;
+  font-size: xx-large;
+  top: 0;
+  right: 0;
+  margin: 0.1rem;
+
+  text-align: center;
+  padding: 0;
+}
+.wetharContainer {
+  width: 100%;
+}
+.weather-container-pro {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.App-weather {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.profile-name h3,
+.profile-email h3 {
+  color: #3d5a80;
+  font-size: 2em;
+}
+.profile-name h2,
+.profile-email h2 {
+  color: #3d5a80;
+  font-size: 1.5em;
+}
+.container-width h3 {
+  box-shadow: 1px 4px 20px 2px rgb(212, 212, 212);
+  background-color: white;
+  color: #3d5a80;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-top: 1 px solid black;
+  text-align: center;
+  font-size: 2em;
+  border-radius: 0.2rem;
+}
+.button {
+  color: #e0fbfc;
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  background: linear-gradient(135deg, #3d5a80, #293241);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  margin: 0 auto !important;
+}
+​ .location-container,
+.weather-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.bookedservicess {
+  width: 80%;
+  margin: 0 auto;
+}
+/* @media (max-width:2500px){
+  .container-profile-ch  .mm-1{
+    font-size: 2em;
+  }
+}
+@media (max-width:1100px){
+  .container-profile-ch{
+    width: 85%;
+    height: 28rem;
+    margin:2rem ;
+  }
+  .profile-image{
+    width: 9rem;
+    top: -25%;
+  }
+  .container-profile-ch  .mm-1{
+    font-size: 1.5em;
+  }
+}
+@media (max-width:768px){
+  .container-profile-ch{
+    width: 85%;
+    margin:2rem ;
+
+  }
+  .profile-image{
+    width: 8rem;
+    top: -18%;
+  }
+}
+@media (max-width:575px){
+  .wetharContainer {
+    width: 100vw;
+  }
+  .container-profile-ch  .mm-1{
+    font-size: 1em;
+}
+.container-profile-ch{
+  padding: 3rem 0rem 1rem 0rem;
+}
+}
+
+@media (max-width:400px){
+  .container-profile-ch{
+    width: auto;
+    height: 60vh;
+    padding: 3rem 0rem 1rem 0rem;}
+    .profile-image{
+      width: 6.5rem;
+    top: -18%;
+  }
+} */
+/* @media (max-width:324px){
+  .information {
+    margin-left: 0;
+  }
+  .container-profile-ch {
+    padding: 2rem 0.2rem 0rem 0rem;
+}
+} */
+@media (max-width: 600px) {
+  .container-profile-ch {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-profile-ch {
+    width: 100%;
+  }
+  .count-imag-pro {
+    flex-direction: column;
+  }
+  .profile-image-count {
+    width: 100%;
+  }
+  .information {
+    width: 100%;
+    margin: 0;
+    padding: 0.2rem;
+    /* text-align: center; */
+  }
+  .profile-name h3,
+  .profile-email h3 {
+    color: #3d5a80;
+    font-size: 1em;
+  }
+  .profile-name h2,
+  .profile-email h2 {
+    font-size: 1.3em;
+  }
+  .profile-image {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+  }
+}

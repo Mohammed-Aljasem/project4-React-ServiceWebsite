@@ -1,0 +1,15 @@
+body {
+  background-color: #fff;
+}
+.flex-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+  color: #3d5a80;
+}

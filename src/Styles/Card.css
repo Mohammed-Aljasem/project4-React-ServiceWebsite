@@ -1,0 +1,59 @@
+.flex-container {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+.top-container {
+  margin: 2rem 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  flex-basis: 20rem;
+  height: 22rem;
+  font-size: 0.75rem;
+}
+.top-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card {
+  text-align: center;
+  color: #3d5a80;
+  box-shadow: rgb(122, 118, 118) 0 0.1rem 0.1rem;
+}
+
+.profile-img {
+  width: 60%;
+  height: 65%;
+  /* top: -105px; */
+  left: 35%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 858px) {
+  .flex-container {
+    position: relative;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 500px) {
+  .flex-container {
+    margin: 0 2rem;
+  }
+}
