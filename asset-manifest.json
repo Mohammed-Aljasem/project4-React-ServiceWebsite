@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/project4-React-ServiceWebsite/static/css/main.3e7ab0c4.chunk.css",
+    "main.js": "/project4-React-ServiceWebsite/static/js/main.a9df6b3b.chunk.js",
+    "main.js.map": "/project4-React-ServiceWebsite/static/js/main.a9df6b3b.chunk.js.map",
+    "runtime-main.js": "/project4-React-ServiceWebsite/static/js/runtime-main.ba1b0a1e.js",
+    "runtime-main.js.map": "/project4-React-ServiceWebsite/static/js/runtime-main.ba1b0a1e.js.map",
+    "static/css/2.db008b6a.chunk.css": "/project4-React-ServiceWebsite/static/css/2.db008b6a.chunk.css",
+    "static/js/2.abee4396.chunk.js": "/project4-React-ServiceWebsite/static/js/2.abee4396.chunk.js",
+    "static/js/2.abee4396.chunk.js.map": "/project4-React-ServiceWebsite/static/js/2.abee4396.chunk.js.map",
+    "index.html": "/project4-React-ServiceWebsite/index.html",
+    "static/css/2.db008b6a.chunk.css.map": "/project4-React-ServiceWebsite/static/css/2.db008b6a.chunk.css.map",
+    "static/css/main.3e7ab0c4.chunk.css.map": "/project4-React-ServiceWebsite/static/css/main.3e7ab0c4.chunk.css.map",
+    "static/js/2.abee4396.chunk.js.LICENSE.txt": "/project4-React-ServiceWebsite/static/js/2.abee4396.chunk.js.LICENSE.txt",
+    "static/media/1.b72bbd14.svg": "/project4-React-ServiceWebsite/static/media/1.b72bbd14.svg",
+    "static/media/2.5d245192.svg": "/project4-React-ServiceWebsite/static/media/2.5d245192.svg",
+    "static/media/Scard1.b7830743.jpg": "/project4-React-ServiceWebsite/static/media/Scard1.b7830743.jpg",
+    "static/media/imge1.6ffc3a4d.jpg": "/project4-React-ServiceWebsite/static/media/imge1.6ffc3a4d.jpg",
+    "static/media/imge2.1da02fba.jpg": "/project4-React-ServiceWebsite/static/media/imge2.1da02fba.jpg",
+    "static/media/lesson.642ed584.mp4": "/project4-React-ServiceWebsite/static/media/lesson.642ed584.mp4",
+    "static/media/logo.bd306516.png": "/project4-React-ServiceWebsite/static/media/logo.bd306516.png",
+    "static/media/specil2.1f3c9ced.png": "/project4-React-ServiceWebsite/static/media/specil2.1f3c9ced.png",
+    "static/media/weather-icons.css": "/project4-React-ServiceWebsite/static/media/weathericons-regular-webfont.e4d2c00e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba1b0a1e.js",
+    "static/css/2.db008b6a.chunk.css",
+    "static/js/2.abee4396.chunk.js",
+    "static/css/main.3e7ab0c4.chunk.css",
+    "static/js/main.a9df6b3b.chunk.js"
+  ]
+}
