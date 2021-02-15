@@ -40,7 +40,7 @@ const Home = () => {
       <h3 style={{ marginTop: "5rem" }}> Our Team </h3>​
       <div className="flex-container">
         <Card
-          img="https://media-exp1.licdn.com/dms/image/C4D03AQEpu-B0qUBHfw/profile-displayphoto-shrink_400_400/0?e=1612396800&v=beta&t=YTzerBXrmhzYcvUHp5cUk2jOqcM_y5vaPCjlIOufQwI"
+          img="https://avatars.githubusercontent.com/u/39887091?s=460&v=4"
           name="Abdullah alhajeid "
           number="0778870786"
           lecture="Scrum Master"
